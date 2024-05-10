@@ -495,56 +495,84 @@ class _LandingPageScreenState extends State<LandingPageScreen> {
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      Image.asset(
-                        stopWastingMobile,
-                        fit: BoxFit.contain,
-                        scale: 0.4,
+                      Padding(
+                        padding: EdgeInsets.only(top: 50.h),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            CustomText(
+                                text:
+                                    'Stop wasting time Start Using INSPECSTORE',
+                                fontSize: 44.sp,
+                                color: whiteColor,
+                                width: 553.w,
+                                textAlign: TextAlign.center,
+                                fontWeight: FontWeight.w700),
+                            Image.asset(
+                              stopWastingMobile,
+                              fit: BoxFit.contain,
+                              height: 720.h,
+                              width: 550.w,
+                            ),
+                          ],
+                        ),
                       ),
-                      // Padding(
-                      //   padding: EdgeInsets.symmetric(
-                      //       horizontal: 51.w, vertical: 165.h),
-                      //   child: Column(
-                      //     // crossAxisAlignment: CrossAxisAlignment.end,
-                      //     // mainAxisAlignment: MainAxisAlignment.center,
-                      //     children: [
-                      //       CustomText(
-                      //           text:
-                      //               'The App That Gives You Reports Of Houses What You Really Want',
-                      //           fontSize: 34.sp,
-                      //           color: whiteColor,
-                      //           width: 573.w,
-                      //           textAlign: TextAlign.center,
-                      //           fontWeight: FontWeight.w700),
-                      //       SizedBox(height: 82.h),
-                      //       CustomText(
-                      //           text:
-                      //               'What is the one thing that keeps from getting what we want?',
-                      //           fontSize: 30.sp,
-                      //           color: whiteColor,
-                      //           width: 573.w,
-                      //           // textAlign: TextAlign.center,
-                      //           fontWeight: FontWeight.w400),
-                      //       SizedBox(height: 29.h),
-                      //       CustomText(
-                      //           text: 'It’s always the price…',
-                      //           fontSize: 30.sp,
-                      //           color: whiteColor,
-                      //           width: 573.w,
-                      //           // textAlign: TextAlign.center,
-                      //           fontWeight: FontWeight.w700),
-                      //       SizedBox(height: 51.h),
-                      //       CustomText(
-                      //           text:
-                      //               'At INSPECTSORE, you can find what you want at the price you want.',
-                      //           fontSize: 30.sp,
-                      //           color: whiteColor,
-                      //           width: 573.w,
-                      //           // textAlign: TextAlign.center,
-                      //           fontWeight: FontWeight.w400),
-                      //     ],
-                      //   ),
-                      // ),
+                      Padding(
+                        padding: EdgeInsets.only(right: 65.w, top: 150.h),
+                        child: Column(
+                          // crossAxisAlignment: CrossAxisAlignment.end,
+                          // mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            CustomText(
+                                text:
+                                    'Experience the future of real estate transactions with INSPECTSTORE.',
+                                fontSize: 30.sp,
+                                color: whiteColor,
+                                width: 692.w,
+                                textAlign: TextAlign.justify,
+                                fontWeight: FontWeight.w400),
+                            SizedBox(height: 40.h),
+                            CustomText(
+                                text:
+                                    'Dive into a vast selection of house survey reports, meticulously crafted to offer unparalleled insights into your potential property.',
+                                fontSize: 30.sp,
+                                color: whiteColor,
+                                width: 692.w,
+                                textAlign: TextAlign.justify,
+                                fontWeight: FontWeight.w400),
+                            SizedBox(height: 40.h),
+                            CustomText(
+                                text:
+                                    'From structural integrity to hidden issues, our reports empower you to make informed decisions with confidence.',
+                                fontSize: 30.sp,
+                                color: whiteColor,
+                                width: 692.w,
+                                textAlign: TextAlign.justify,
+                                fontWeight: FontWeight.w400),
+                            SizedBox(height: 40.h),
+                            CustomText(
+                                text:
+                                    'Sell with transparency or buy with assurance, all made effortless through INSPECTSTORE\'s user-friendly platform.',
+                                fontSize: 30.sp,
+                                color: whiteColor,
+                                width: 692.w,
+                                textAlign: TextAlign.justify,
+                                fontWeight: FontWeight.w400),
+                            SizedBox(height: 40.h),
+                            CustomText(
+                                text:
+                                    'Start your journey towards hassle-free property transactions today.',
+                                fontSize: 30.sp,
+                                color: whiteColor,
+                                width: 692.w,
+                                textAlign: TextAlign.justify,
+                                fontWeight: FontWeight.w400),
+                          ],
+                        ),
+                      ),
                     ],
                   )
                 ],
