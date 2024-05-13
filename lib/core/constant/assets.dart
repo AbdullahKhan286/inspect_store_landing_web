@@ -18,3 +18,10 @@ String purchase = '$staticIconPath/purchase.png';
 String glass = '$staticIconPath/glass.png';
 String upload = '$staticIconPath/upload.png';
 String stopWastingMobile = '$staticIconPath/stopwasting_mobile.png';
+String quota = '$staticIconPath/quota.png';
+
+String person1 = '$staticIconPath/person1.png';
+String person2 = '$staticIconPath/person2.png';
+String person3 = '$staticIconPath/person3.png';
+String person4 = '$staticIconPath/person4.png';
+String person5 = '$staticIconPath/person5.png';
