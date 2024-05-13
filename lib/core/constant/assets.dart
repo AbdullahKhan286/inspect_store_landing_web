@@ -25,3 +25,4 @@ String person2 = '$staticIconPath/person2.png';
 String person3 = '$staticIconPath/person3.png';
 String person4 = '$staticIconPath/person4.png';
 String person5 = '$staticIconPath/person5.png';
+String sellermobile = '$staticIconPath/sellermobile.png';
